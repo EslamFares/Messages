@@ -1,6 +1,6 @@
 # messages
 
-chat app &#x27;messages&#x27; UI
+Messages with TapBar and chat croup by date
 
 ## Getting Started
 
