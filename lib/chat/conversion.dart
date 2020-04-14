@@ -1,9 +1,9 @@
 import 'messages.dart';
 import 'user.dart';
 
-class Conversion {
+class Conversation {
   List<User> user;
   List<Message> message;
 
-  Conversion({this.user, this.message});
+  Conversation({this.user, this.message});
 }

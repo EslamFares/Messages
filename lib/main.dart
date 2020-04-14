@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:messages/chat/message_proivider.dart';
+import 'package:messages/chat2/chat_screen.dart';
 import 'chat/chat_list.dart';
 
 void main() => runApp(MyApp());
@@ -13,6 +15,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: ChatList(),
+//      ChatScreen2(MessageProvider.getConversation(),'Eslam Fares'),
     );
   }
 }

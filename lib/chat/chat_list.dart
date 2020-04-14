@@ -11,7 +11,7 @@ class ChatList extends StatefulWidget {
 
 class _ChatListState extends State<ChatList>
     with SingleTickerProviderStateMixin {
-  List<Conversion> _Converstations = MessageProvider.getConversations();
+  List<Conversation> _Converstations = MessageProvider.getConversations();
   TabController _tabController;
   @override
   void initState() {
